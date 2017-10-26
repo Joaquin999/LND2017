@@ -1,0 +1,31 @@
+<html>
+<head><title>Ejercicio 2</title>
+<script>
+function myFunction() {
+    document.getElementById("cosa3").value = document.getElementById("algo").value;
+}
+</script>
+    
+    
+    
+    
+    
+    </head>
+
+<body>
+    
+    
+    <fieldset>
+		<legend>Información Personal</legend>
+		Nombre: <br><input id="algo" type="text" name="firstName" placeholder="Nombre" autofocus required> *<br><br>
+		Clave:   <br><input type="password" name="lastName" required> *<br><br>
+        <label for="age">Edad (Mayor que 18):</label><br><input type="number" min="18" max="99" step="1" value="18" id="age" name="age"  required><br><br>
+        Correo-e: <br><input type="email" name="firstName" > <br><br>
+		Página Personal:  <br><input type="url" name="lastName"> <br>
+         <input onClick="presionar()" type="submit" value="Enviar">	
+         <input type="submit" value="Pulsa Aquí" id="cosa3" onclick="myFunction()">	
+	</fieldset>  
+    <br>  
+    </body>
+
+</html>
