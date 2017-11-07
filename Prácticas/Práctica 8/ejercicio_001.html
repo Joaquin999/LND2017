@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <title></title><link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        .1{
+            font-size: 30px;
+        }
+
+    </style>
+
+</head>
+
+<body><div ONMOUSEOVER="this.className = 1" 
+
+ONMOUSEOUT="this.className = 2">
+    <h1>Por favor, introduce tus Datos</h1>
+    <fieldset>
+        <legend>Tu cara</legend>
+        <label>Foto:</label><br> <label>Previsualización de <br>Imagen:</label><br>
+        <form action="#" method="post" id="subearchivos">
+            <input required type="file" id="archivos" name="archivos" />
+            <div id="vista_previa"></div>
+
+            <input type="button" value="cancelar" style="display: none;" onclick="cancela('subearchivos');" id="resetear" />
+        </form>
+        <script>
+            if (window.FileReader) {
+                function seleccionArchivo(evt) {
+                    var files = evt.target.files;
+                    var f = files[0];
+                    var leerArchivo = new FileReader();
+                    document.getElementById('resetear').style.display = 'block';
+                    leerArchivo.onload = (function(elArchivo) {
+                        return function(e) {
+                            document.getElementById('vista_previa').innerHTML = '<img src="' + e.target.result + '" alt="" width="250" />';
+                        };
+                    })(f);
+
+                    leerArchivo.readAsDataURL(f);
+                }
+            } else {
+                document.getElementById('vista_previa').innerHTML = "El navegador no soporta vista previa";
+            }
+
+            document.getElementById('archivos').addEventListener('change', seleccionArchivo, false);
+
+            function cancela(elForm) {
+                document.getElementById(elForm).reset();
+                if (window.FileReader) {
+                    document.getElementById('vista_previa').innerHTML = "Vista Previa";
+                } else {
+                    document.getElementById('vista_previa').innerHTML = "El navegador no soporta vista previa";
+                }
+                document.getElementById('resetear').style.display = 'none';
+            }
+
+        </script>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Datos Generales</legend>
+        <label>Nombre:</label><input type="text" placeholder="Nombre completo" required><br> <label>Género:</label>&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="1"><label for="1" required>Mujer</label>
+
+
+        <input id="extraviado" required type="radio" name="1">Hombre<br><label> Edad:</label>
+
+        <input type="number" min="18" id="extraviado2" max="99" step="1" value="18" id="age" name="age"><br> <label>Fecha de Nacimiento:</label><input type="datetime-local" value="" style="margin-left: 36px;width: 173px" name="Fecha"><br> <label>Color Favorito:</label><input style="margin-left:77px" type="color"><br> <label>País:</label> <select style="margin-left:141px" id="extraviado2" name="País">
+    <option value="selecciona">Canadá</option><br>
+    <option value="selecciona">Mongolia</option><br>
+    <option value="selecciona">El País de las Maravillas</option>
+    <option value="selecciona">Quiero aprobar base de Datos :(</option><br>
+    </select><br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Otras Caracterísiticas</legend>
+
+
+        <label>Altura</label>:&nbsp;<label id="extraviado3" style="background-color: red;margin-left: 126px; ">Bajo</label><input id="extraviado3" type="range"><label id="extraviado4" style="background-color: darkviolet;margin-left: 120px;">Alto</label><br><label>Salario:</label>
+
+
+        <label id="extraviado3" style="background-color: red;margin-left: 121px;">Pobre</label><input id="extraviado3" type="range"><label id="extraviado4" style="background-color: darkviolet;margin-left: 120px;">Rico</label><br>
+
+    </fieldset>
+    
+    <br>
+    <fieldset><legend>Información del Contacto</legend><label>Email:</label><input type="email"style="margin-left: 130px;" required><br>
+        <label>Móvil:</label><input type="tel" style="margin-left: 129px;"><br><label>Dirección:</label>
+    <textarea id="extraviado4"></textarea><br>
+        <label>Método de contacto:</label><input type="checkbox"style="margin-left: 50px;"><label>Email</label><input style="margin-left: 10px;"type="checkbox"><label>Whatsapp</label><input style="margin-left: 10px;" type="checkbox"><label>Skype</label>
+    
+    </fieldset>  <br>  <input id="extraviado5" type="submit"></div>
+</body>
+<html>

@@ -1,0 +1,62 @@
+fieldset {
+
+            border-color: yellow;
+            border-width: 10px;
+            border-left-color: yellow;
+            border-right-color: yellow;
+            border-style: solid;
+        }
+
+        #subearchivos {
+            margin-left: 60px;
+            margin-top: -45px;
+            margin-bottom: 30px;
+        }
+
+        input {
+
+
+            margin-left: 120px;
+        }
+
+        #extraviado {
+
+
+            margin-left: 10px;
+        }
+
+        #extraviado2 {
+
+
+            margin-left: 135px;
+            width: 173px;
+        }
+
+        #extraviado3 {
+
+
+            margin-right: -110px;
+            width: 173px;
+        }
+        #extraviado4 {
+
+
+            margin-left: 101px;
+            width: 360px;
+            Margin-top:0.5px;
+        }
+#extraviado5{
+    
+    margin-left:0px;
+}
+.1{
+    font-size: 30px;
+}
+input:hover,h1:hover,p1:hover,legend:hover,textarea:hover,select:hover,text:hover,label:hover,checkbox:hover{
+    
+    font-size: 30px;
+}
+#extraviado6:hover{
+   font-size: 30px; 
+    
+}
