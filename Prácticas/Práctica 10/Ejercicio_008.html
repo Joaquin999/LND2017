@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial;
+            color: black;
+        }
+
+        h1 {
+            font-family: Verdana;
+        }
+
+        p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Titular de la página</h1>
+    <p>Un párrafo de texto.</p>
+    
+    <p>En este caso se está produciendo una herencia de p hacia el formato de body, ya que body tiene prioridad: body tiene un formato de texto y un color especificados, los cuales hereda p, sin embargo, como p tiene un color especificado también, prevalece este último y solo se hereda el formato de texto</p>
+    <p>En h1 pasa algo parecido, body tiene especificados un formato de texto y un color, sin embargo h1 solo hereda el color porque ya tiene un formato de texto especificado el cual prevalece</p>
+
+
+</body>
+</html>
