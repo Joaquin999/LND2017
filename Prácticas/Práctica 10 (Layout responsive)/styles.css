@@ -1,0 +1,171 @@
+#encabezado {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#maestro {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    height: 46.2%;
+    width: 99%;
+}
+
+#cuadro1 {
+
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 350px;
+    height: 150px;
+    border-left-color: black;
+}
+
+#cuadrodentro1 {
+    margin-top: -0.4%;
+    margin-left: 69%;
+    margin-right: -0.4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: lightcoral;
+    height: 14%;
+    text-align: center;
+
+
+}
+
+#texto1 {
+    margin-top: -2.5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#cuadro2 {
+
+    margin-top: -11.5%;
+    margin-left: 32.5%;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 350px;
+    height: 150px;
+    border-left-color: black;
+}
+
+#cuadrodentro2 {
+    margin-top: -0.4%;
+    margin-left: 69%;
+    margin-right: -0.4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: red;
+    height: 14%;
+    text-align: center;
+    color: white;
+
+
+}
+
+#texto2 {
+    margin-top: -2.5%;
+    margin-right:100%;
+    margin-left:0%;
+}
+
+#cuadro3 {
+
+    margin-top: -11.5%;
+    margin-left: 65%;
+    margin-right: 0%;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 350px;
+    height: 150px;
+    
+}
+
+#cuadrodentro3 {
+    margin-top: -0.4%;
+    margin-left: 69%;
+    margin-right: -0.3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: khaki;
+    height: 14%;
+    text-align: center;
+
+
+}
+
+#texto3 {
+    margin-top: -2.5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+@media screen and (max-width:600px){
+    
+    
+    #maestro {
+    margin-left: 4%;
+    margin-right: 0%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    height: 106.2%;
+    width: 40%;
+}
+    
+    #cuadro1 {
+
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 0%;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 350px;
+    height: 150px;
+    border-left-color: black;
+}
+    #cuadro2 {
+
+    margin-top: 20%;
+    margin-left: 20%;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 350px;
+    height: 150px;
+    border-left-color: black;
+}
+    #cuadro3 {
+
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 0%;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 350px;
+    height: 150px;
+    
+}
+    #encabezado {
+    margin-top: 5%;
+        margin-left: 90%;
+    
+}
+}
