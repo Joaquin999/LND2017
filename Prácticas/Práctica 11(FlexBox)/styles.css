@@ -1,0 +1,179 @@
+#encabezado {
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#cuadro1 {
+
+margin-top:10px;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+   width: 34.1%;
+    height: 45.4%;
+    border-left-color: black;
+}
+
+#cuadrodentro1 {
+    margin-top: -0.4%;
+    margin-left: 69%;
+    margin-right: -0.4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: lightcoral;
+    height: 14%;
+    text-align: center;
+
+
+}
+
+#texto1 {
+    margin-top: -2.5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#cuadro2 {
+
+margin-top:10px;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 34.1%;
+    height: 45.4%;
+    border-left-color: black;
+    margin-left: 3%;
+}
+
+#cuadrodentro2 {
+    margin-top: -0.4%;
+    margin-left: 69%;
+    margin-right: -0.4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: red;
+    height: 14%;
+    text-align: center;
+    color: white;
+
+
+}
+
+#texto2 {
+    margin-top: -2.5%;
+    margin-right: 100%;
+    margin-left: 0%;
+}
+
+#cuadro3 {
+
+    margin-top: 10px;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 71.3%;
+    height: 150px;
+
+}
+
+#cuadrodentro3 {
+    margin-top: -0.2%;
+    margin-left: 69%;
+    margin-right: -0.2%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: khaki;
+    height: 14%;
+    text-align: center;
+
+
+}
+
+#texto3 {
+    margin-top: -2.5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+
+.cont-flex {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 75%;
+    padding: 3px px;
+    margin-left: 22%;
+    
+    
+
+
+
+    align-items: center;
+}
+
+@media screen and (max-width:991px) {
+.cont-flex {
+    margin-left: 30%;
+    }
+    #cuadro1{
+        width:50%;
+        height:45.5%;
+    }
+    #cuadro2{
+        width:50%;
+        height:45.5%;
+        margin-left: 0.1px;
+    }
+    #cuadro3{
+        width:50%;
+        height:45.5%;
+        margin-left: 0.1px;
+    }
+   
+
+    
+
+}
+@media screen and (max-width:767px) {
+    
+    
+    
+    #cuadro1{
+        width:60%;
+        height:45.5%;
+        margin-left:%;
+        background-color: deepskyblue;
+    }
+    #cuadro2{
+        width:60%;
+        height:45.5%;
+        margin-left: %;
+        background-color: deepskyblue;
+    }
+    #cuadro3{
+        width:60%;
+        height:45.5%;
+         margin-left:%;
+        background-color: deepskyblue;
+    }
+    
+}
