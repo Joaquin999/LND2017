@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+	<title>Página Web de Daw</title>
+	<link>http://www.noticiasdedaw.com</link>
+	<description>La gratuita y novedosa Página Web de Daw, para todas</description>
+<atom:link href="http://dallas.example.com/rss.xml" rel="self" type="application/rss+xml" />
+	<item>
+	<author>joaquinez13@gmail.com</author>
+			<title>Los suspensos en Base de Datos se disparan</title>
+			<link>http://www.noticiasdedaw.com</link>
+			<description>Los suspensos en base de datos han crecido un 300%</description>
+			<guid isPermaLink="true">http://inessential.com/2002/09/01.php#a2</guid>
+			<language>es</language>
+			<copyright>© Copyright 1997-2002 UserLand Software. All Rights Reserved.</copyright>
+			<pubDate>Thur, 30 May 2017 12:21:36 GMT </pubDate>
+			<category>Notas de los Alumnos</category>
+		</item>
+		<item>
+		<author>joaquinez13@gmail.com</author>
+			<title>Alumno de Daw se suicida por suspender base de datos</title>
+			<link>http://www.noticiasdedaw.com</link>
+			<description>Hoy lamentamos el fallecimiento de un alumno de daw a manos de la vil asignatura "Base de Datos"</description>
+      <guid isPermaLink="true">http://inessential.com/2002/09/01.php#a3</guid>			
+			<language>es</language>
+			<copyright>© Copyright 1997-2002 UserLand Software. All Rights Reserved.</copyright>
+			<pubDate>Thur, 30 May 2017 12:21:36 GMT </pubDate>
+			<category>Sucesos escalofriantes</category>
+		</item>
+		<item>
+		<author>joaquinez13@gmail.com</author>
+			<title>Olores en la clase de DAW</title>
+			<link>http://www.noticiasdedaw.com</link>
+			<description>Al parecer, un miembro de la junta de delegados se ha pronunciado quejándose del mal olor en la clase de DAW de Majada Marcial. Por lo visto, el sujeto en cuestión no conoce la alta higiene personal de los alumnos</description>
+      <guid isPermaLink="true">http://inessential.com/2002/09/01.php#a4</guid>			
+			<language>es</language>
+			<copyright>© Copyright 1997-2002 UserLand Software. All Rights Reserved.</copyright>
+			<pubDate>Thur, 30 Feb 2017 12:21:36 GMT </pubDate>
+			<category>Estado de la Clase</category>
+		</item>
+	</channel>
+</rss>
