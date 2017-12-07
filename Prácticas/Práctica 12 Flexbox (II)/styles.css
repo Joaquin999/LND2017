@@ -1,0 +1,280 @@
+/* menu desplegable */
+            
+#menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#eee;
+ padding:0;
+
+}
+
+/* items del menu desplegable */
+
+#menu ul ul li {
+ float:none;
+ width:150px
+}
+
+/* enlaces de los items del menu desplegable */
+
+#menu ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+#menu ul li:hover > ul {
+ display:block;
+}
+/* menu */
+
+#menu ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+
+/* items del menu */
+
+#menu ul li {
+ background-color:#2e518b;
+}
+
+/* enlaces del menu */
+
+#menu ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-weight:400;
+ font-size:15px;
+ padding:10px;
+ font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+
+/* items del menu */
+
+#menu ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+#menu ul li:hover {
+ background:#5b78a7;
+}
+#menu{
+                margin-left: 25%;
+            }
+img{
+    margin-top: -5%;
+}
+li{
+    width: 20%;
+    height: 9%;
+    text-align: center;
+}
+
+
+#encabezado {
+    margin-top: 11%;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#cuadro1 {
+
+margin-top:10px;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+   width: 34.1%;
+    height: 45.4%;
+    border-left-color: black;
+}
+
+#cuadrodentro1 {
+    margin-top: -0.4%;
+    margin-left: 69%;
+    margin-right: -0.4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: lightcoral;
+    height: 14%;
+    text-align: center;
+
+
+}
+
+#texto1 {
+    margin-top: -2.5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#cuadro2 {
+
+margin-top:10px;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 34.1%;
+    height: 45.4%;
+    border-left-color: black;
+    margin-left: 3%;
+}
+
+#cuadrodentro2 {
+    margin-top: -0.4%;
+    margin-left: 69%;
+    margin-right: -0.4%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: red;
+    height: 14%;
+    text-align: center;
+    color: white;
+
+
+}
+
+#texto2 {
+    margin-top: -2.5%;
+    margin-right: 100%;
+    margin-left: 0%;
+}
+
+#cuadro3 {
+
+    margin-top: 10px;
+    background-color: darkgrey;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 71.3%;
+    height: 150px;
+
+}
+
+#cuadrodentro3 {
+    margin-top: -0.2%;
+    margin-left: 69%;
+    margin-right: -0.2%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: khaki;
+    height: 14%;
+    text-align: center;
+
+
+}
+
+#texto3 {
+    margin-top: -2.5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+
+.cont-flex {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 75%;
+    padding: 3px px;
+    margin-left: 22%;
+    align-items: center;
+}
+
+
+@media screen and (max-width:991px) {
+.cont-flex {
+    margin-left: 30%;
+    }
+    #cuadro1{
+        width:50%;
+        height:45.5%;
+    }
+    #cuadro2{
+        width:50%;
+        height:45.5%;
+        margin-left: 0.1px;
+    }
+    #cuadro3{
+        width:50%;
+        height:45.5%;
+        margin-left: 0.1px;
+    }
+   #menu{
+                margin-left: 27%;
+    }
+   
+    
+img{
+    margin-top: -5%;
+    width: 50px;
+       height: 45px;
+}
+li{
+    width: 20%;
+    height: 9%;
+    text-align: center;
+    
+}
+    #encabezado{
+        margin-top: 15%;
+    }
+@media screen and (max-width:767px) {
+    
+    #menu{
+                margin-left: 33%;
+            }
+    
+    #cuadro1{
+        width:60%;
+        height:45.5%;
+        margin-left:%;
+        background-color: deepskyblue;
+    }
+    #cuadro2{
+        width:60%;
+        height:45.5%;
+        margin-left: %;
+        background-color: deepskyblue;
+    }
+    #cuadro3{
+        width:60%;
+        height:45.5%;
+         margin-left:%;
+        background-color: deepskyblue;
+    }
+    #encabezado{
+        margin-top: 19%;
+    }
+    
+}
