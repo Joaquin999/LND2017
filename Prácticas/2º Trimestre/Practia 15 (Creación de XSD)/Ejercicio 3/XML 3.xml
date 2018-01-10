@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsi:noNamespaceSchemaLocation="XSD">
+<Libro>
+<Título>Las uvas de la ira</Título>
+<Autores>Allen Wyke</Autores>
+<Autores>Andrew Watt</Autores>
+<Editorial>Wiley</Editorial>
+</Libro>
