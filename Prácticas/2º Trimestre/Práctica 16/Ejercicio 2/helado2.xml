@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<helado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helado2.xsd">
+<tipo_sabor>Chocolate</tipo_sabor>
+<tipo_helado>Tarrina</tipo_helado>
+<tipo_tamaño>Grande</tipo_tamaño>
+</helado>

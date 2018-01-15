@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+<xs:element name="Nombre_de_Entidad" type="xs:string"/>
+<xs:element name="Inicio_de_prestamo" type="xs:date"/>
+<xs:element name="tipo_de_calle">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="Calle|Avenida|Plaza"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+<xs:element name="id" type="xs:integer"/>
+<xs:element name="nombre" type="xs:string"/>
+<xs:element name="apellidos" type="xs:string"/>
+<xs:element name="telefono" type="xs:integer"/>
+
+
+
+
+<xs:element name="num_prestamos" type="xs:integer"/>
+<xs:element name="concepto" type="xs:string"/>
+<xs:element name="cantidad" type="xs:float"/>
+
+
+<!-- Atributos -->
+
+<xs:attribute name="nombre_calle" type="xs:string"/>
+<xs:attribute name="número" type="xs:int"/>
+<xs:attribute name="piso_y_letra" type="xs:integer"/>
+<xs:attribute name="cp" type="xs:integer/string"/>
+<xs:attribute name="localidad" type="xs:string"/>
+<xs:attribute name="provincia" type="xs:string"/>
+
+<!--Complejos-->
+
+<xs:element name="banco">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="Datos_del_cliente">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="id"/>
+<xs:element ref="Nombre"/>
+<xs:element ref="Telefono"/>
+             <xs:element name="direccion">
+             
+             <xs:attribute ref="tipo_de_calle"/>
+             <xs:attribute ref="nombre_calle"/>
+             <xs:attribute ref="numero"/>
+             <xs:attribute ref="piso_y_letra"/>
+             <xs:attribute ref="cp"/>
+             <xs:attribute ref="localidad"/>
+             <xs:attribute ref="provincia"/>
+        
+             </xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+
+<xs:element name="Prestamo" maxOccurs="2"><xs:complexType><xs:sequence>
+<xs:element ref="num_prestamos"/>
+<xs:element ref="concepto"/>
+<xs:element ref="cantidad"/>
+
+
+
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+
+</xs:schema>
