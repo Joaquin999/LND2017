@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<banco  xsi:noNamespaceSchemaLocation="prestamos.xsd">
+<Nombre_de_Entidad>LND Prestamos</Nombre_de_Entidad>
+<Inicio_de_prestamo>30/2/2020</Inicio_de_prestamo>
+<Datos_del_Cliente>
+         <id>758454</id>
+         <Nombre>Pepe</Nombre>
+         <Telefono>928761822</Telefono>
+          <Direccion nombre_calle="Andalucía" numero="99" piso_y_letra="2b" cp="45847" localidad="Puerto del Rosario" provincia="Las Palmas de Gran Canaria"></Direccion>
+<Prestamo>
+<num_prestamos>1</num_prestamos>
+<concepto>Tener una novia</concepto>
+<cantidad>800.00</cantidad>
+</Prestamo>
+</Datos_del_Cliente>
+
+</banco>
