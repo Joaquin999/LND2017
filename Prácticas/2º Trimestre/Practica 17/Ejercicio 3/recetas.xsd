@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- Simples -->
+<xs:element name="ingrediente" type="xs:string"/>
+<xs:element name="utensilio" type="xs:string"/>
+
+<!-- Atributos -->
+<xs:attribute name="nombre" type="xs:string"/>
+<xs:attribute name="numeroDePersonas" type="xs:string"/>
+
+<!-- Complejos -->
+
+<xs:element name="recetas">
+<xs:complexType>
+<xs:sequence>
+
+<xs:element name="receta" maxOccurs="unbounded">
+<xs:complexType>
+ <xs:sequence>
+ 
+ <xs:element name="ingredientes">
+ <xs:complexType>
+ <xs:sequence>
+ <xs:element ref="ingrediente" maxOccurs="unbounded"/>
+ </xs:sequence>
+ </xs:complexType>
+ </xs:element><!-- INGREDIENTES -->
+ 
+ 
+  <xs:element name="preparacion">
+ <xs:complexType>
+ <xs:sequence>
+
+ <xs:element name="paso" maxOccurs="unbounded">
+  <xs:complexType mixed="true">
+ <xs:sequence>
+ <xs:element ref="utensilio" minOccurs="0"/>
+  </xs:sequence>
+ </xs:complexType>
+ </xs:element><!-- PASO -->
+ 
+  </xs:sequence>
+ </xs:complexType>
+ </xs:element><!-- PREPARACION-->
+  </xs:sequence>
+  <xs:attribute ref="nombre"/>
+  <xs:attribute ref="numeroDePersonas"/>
+ </xs:complexType>
+ </xs:element><!-- RECETA-->
+ 
+   </xs:sequence>
+ </xs:complexType>
+ </xs:element><!-- RECETAS -->
+</xs:schema>
