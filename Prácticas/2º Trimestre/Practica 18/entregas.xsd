@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="https://www.w3schools.com" 
+elementFormDefault="qualified">
+<xs:element name="trabajo">
+<xs:complexType>
+<xs:sequence>
+
+<xs:element name="datos_alumno"><xs:complexType><xs:sequence><!--DATOS-->
+
+<xs:element name="autor" type="xs:string"/>
+<xs:element name="modulo">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="Lenguaje de Marcas|Base de Datos|Programación|Entornos de Desarrollo|Formación y Orientación Laboral"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+<xs:element name="motivacion" type="xs:string"/>
+
+</xs:sequence></xs:complexType></xs:element><!--DATOS-->
+
+<xs:element name="cabecera"><xs:complexType><xs:sequence><!--CABECERA-->
+<xs:element name="titulo" type="xs:string"/>
+<xs:element name="indice"><xs:complexType><xs:sequence>
+<xs:element name="entrada" type="xs:string" maxOccurs="unbounded" minOccurs="2"/>
+</xs:sequence></xs:complexType></xs:element><!--INDICE-->
+</xs:sequence></xs:complexType></xs:element><!--CABECERA-->
+
+
+<xs:element name="cuerpo" type="xs:string"/><!--CUERPO-->
+
+<xs:element name="conclusiones" type="xs:string" minOccurs="0"/><!--CONCLUSIONES-->
+
+<xs:element name="pie"><xs:complexType><xs:sequence><!--PIE-->
+
+<xs:element name='fecha_entrega' type="xs:date"/><!-- Lo siento pero no encontré la forma de aplicar el formato dd/mm/aa a este elemento -->
+
+
+<xs:element name="num_paginas" type="xs:string"></xs:element>
+
+</xs:sequence></xs:complexType></xs:element><!--PIE-->
+<xs:element name="nota">
+  <xs:simpleType>
+    <xs:restriction base="xs:double">
+      <xs:minInclusive value="0.00"/>
+      <xs:maxInclusive value="10.0"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+
+</xs:sequence></xs:complexType></xs:element><!--TRABAJO-->
+
+</xs:schema>

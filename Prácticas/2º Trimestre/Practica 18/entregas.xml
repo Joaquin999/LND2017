@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<trabajo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="entregas.xsd">
+<datos_alumno>
+         <autor>Joaquín de León</autor>
+         <modulo>Base de Datos</modulo>
+         <motivacion>Querer aprender programacion y contenido relacionado a la informática</motivacion>
+         
+</datos_alumno>
+<cabecera>
+          <titulo>Desarrollo de Aplicaciones Web</titulo>
+          <indice>
+          <entrada>LND  - Pagina 1</entrada>
+          <entrada>BAE - Pagina 2</entrada>
+          <entrada>FOL - Pagina 3</entrada>
+          <entrada>EDD - Pagina 4</entrada>
+          <entrada>Programacion - Pagina 5</entrada>
+          </indice>
+</cabecera>
+<cuerpo>
+En este ciclo podremos encontrar distintas asignaturas impartidas por distintos profesores pero todas en la misma aula.
+</cuerpo>
+<conclusiones>Es un ciclo de nivel alto en exigencia pero no tan complicado, resultará útil</conclusiones>
+<pie>
+<fecha_entrega>1999-03-31</fecha_entrega>
+<num_paginas>5</num_paginas>
+</pie>
+
+<nota>7.55</nota>
+</trabajo>
