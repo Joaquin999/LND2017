@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html>
+<h1>Majada Marcial Vending Products ordered alphabetically</h1>
+  <p><xsl:value-of select="//name[2]"/></p>
+  <p><xsl:value-of select="//name[4]"/></p>
+  <p><xsl:value-of select="//name[1]"/></p>
+  <p><xsl:value-of select="//name[5]"/></p>
+  <p><xsl:value-of select="//name[3]"/></p>
+</html>
+</xsl:template>
+</xsl:stylesheet>

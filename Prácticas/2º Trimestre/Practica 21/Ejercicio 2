@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<h1>Majada Marcial Vending Menu List</h1>
+  <ol>
+    <li>French Toast--&gt;
+thick slices made from our homemade sourdough bread</li>
+    <li>Belgian Waffles--&gt;
+two of our famous Belgian Waffles with plenty of real maple syrup
+</li>
+    <li>Strawberry Belgian Waffles--&gt;
+light Belgian waffles covered with strawberries and whipped cream
+</li>
+    <li>Berry-Berry Belgian Waffles--&gt;
+light Belgian waffles covered with an assortment of fresh berries and whipped cream
+</li>
+    <li>Homestyle Breakfast--&gt;
+two eggs, bacon or sausage, toast, and our ever-popular hash browns
+</li>
+  </ol>
+</html>
