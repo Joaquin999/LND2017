@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+<curso>
+<nombre>Curso 1</nombre>
+<precio perioricidad="anual" moneda_de_pago="euro">5</precio>
+<plazasDisponibles>1000</plazasDisponibles>
+<fechaComienzo>1999/02/02</fechaComienzo>
+<fechaFinalizacion>2000/02/02</fechaFinalizacion>
+<profesor>Pepito</profesor>
+<sala>1</sala>
+</curso>
+
+<curso>
+<nombre>Curso 2</nombre>
+<precio perioricidad="trimestral" moneda_de_pago="libra">10</precio>
+<plazasDisponibles>2000</plazasDisponibles>
+<fechaComienzo>1999/04/04</fechaComienzo>
+<fechaFinalizacion>2000/04/04</fechaFinalizacion>
+<profesor>Pepa</profesor>
+<sala>1</sala>
+</curso>
+
+<curso>
+<nombre>Curso 3</nombre>
+<precio perioricidad="diaria" moneda_de_pago="dolar">11</precio>
+<plazasDisponibles>3000</plazasDisponibles>
+<fechaComienzo>1999/06/06</fechaComienzo>
+<fechaFinalizacion>2000/06/06</fechaFinalizacion>
+<profesor>Pepe</profesor>
+<sala>2</sala>
+</curso>
+
+<curso>
+<nombre>Curso 4</nombre>
+<precio perioricidad="mensual" moneda_de_pago="soles">9</precio>
+<plazasDisponibles>4000</plazasDisponibles>
+<fechaComienzo>1999/08/08</fechaComienzo>
+<fechaFinalizacion>2000/08/08</fechaFinalizacion>
+<profesor>Pepita</profesor>
+<sala>2</sala>
+</curso>
+
+
+</cursos>

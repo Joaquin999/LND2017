@@ -1,0 +1,1 @@
+delete node doc("cursos.xml")//curso/precio[@moneda_de_pago="euro"]/..//..//curso[precio<6]

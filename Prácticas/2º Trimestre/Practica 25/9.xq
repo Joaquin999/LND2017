@@ -1,0 +1,1 @@
+delete node doc("cursos.xml")//curso[6]
