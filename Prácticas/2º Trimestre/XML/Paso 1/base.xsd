@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="artistas">
+    <xs:complexType>
+      <xs:sequence>
+        
+    <xs:element name="artista" maxOccurs="unbounded">
+    <xs:complexType>
+    <xs:sequence>
+    
+    <xs:element name="datosPer">
+    <xs:complexType>
+    <xs:sequence>
+      
+        <xs:element name="nombre" maxOccurs="2"/>
+        
+        
+        <xs:element name="sexo">
+        <xs:simpleType>
+        <xs:restriction base="xs:string">
+        <xs:pattern value="Hombre|Mujer|Indefinido"/>
+        </xs:restriction>
+        </xs:simpleType>
+        </xs:element>
+        
+        <xs:element name="lugarnac" type="xs:string"/>
+        
+        <xs:element name="edad" minOccurs="0">
+        <xs:simpleType>
+        <xs:restriction base="xs:integer">
+        <xs:minInclusive value="10"/>
+        <xs:maxInclusive value="80"/>
+        </xs:restriction>
+        </xs:simpleType>
+        </xs:element>
+        
+        <xs:element name="fechanac" type="xs:date"/>
+        
+        
+        <xs:element name="fechafall" type="xs:date" minOccurs="0"/>
+        
+        
+        <xs:element name="estado" minOccurs="0">
+        <xs:simpleType>
+        <xs:restriction base="xs:string">
+        <xs:pattern value="Casado|Casada|Soltero|Soltera|Divorciado|Divorciada|Noviazgo"/>
+        </xs:restriction>
+        </xs:simpleType>
+        </xs:element>
+        
+        <xs:element name="genero" type="xs:string"/>
+        
+        
+        <xs:element name="grupo">
+        <xs:simpleType>
+        <xs:restriction base="xs:string">
+        <xs:pattern value="Si|No"/>
+        </xs:restriction>
+        </xs:simpleType>
+        </xs:element>
+        
+        <xs:element name="nombregrupo" type="xs:string" minOccurs="0"/>
+        <xs:element name="especialidad" type="xs:string"/>
+        <xs:element name="valoracion">
+        <xs:simpleType>
+        <xs:restriction base="xs:float">
+         <xs:minInclusive value="0.00"/>
+         <xs:maxInclusive value="10.00"/>
+        </xs:restriction>
+        </xs:simpleType>
+        </xs:element>
+        
+        
+        
+      </xs:sequence>
+      </xs:complexType>
+      </xs:element><!-- DATOS PER -->
+       
+       <xs:element name="exitos">
+       <xs:complexType>
+       <xs:sequence>
+       <xs:element name="exito" type="xs:string" maxOccurs="unbounded"/>
+       </xs:sequence>
+       </xs:complexType>
+       </xs:element><!-- EXITOS-->
+       
+       
+       
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+      </xs:complexType>
+      </xs:element><!-- ARTISTA-->
+  
+       
+        
+      </xs:sequence>
+      </xs:complexType>
+      </xs:element><!-- ARTISTAS-->
+  
+  
+      <xs:element name="nombre">
+      <xs:complexType mixed="true">
+      <xs:attribute name="tipo" type="xs:string" use="required"/>
+      </xs:complexType>
+      </xs:element>
+  
+  
+</xs:schema>
