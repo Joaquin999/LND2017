@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html>
+  <body STYLE="font-family:Georgia; font-size:12pt; background-color:#4AADE9; text-align:center;">
+    <h1>Lugares de Nacimiento</h1>
+    <p>Estados Unidos</p>
+    <p>Estados Unidos</p>
+    <p>Estados Unidos</p>
+    <p>Estados Unidos</p>
+    <p>Inglaterra</p>
+    <p>Estados Unidos</p>
+    <p>Escocia</p>
+    <p>Reino Unido</p>
+    <p>Colombia</p>
+    <p>Estados Unidos</p>
+    <p>Irlanda</p>
+    <p>Reino Unido</p>
+    <p>Reino Unido</p>
+    <p>Reino Unido</p>
+    <p>Reino Unido</p>
+    <h1>Lista Desordenada de todos los artistas junto con su lugar de nacimiento</h1>
+    <ul>
+      <li>Daniel Coulter Reynolds nació en Estados Unidos</li>
+      <li>Benjamin Arthur McKee nació en Estados Unidos</li>
+      <li>Daniel Wayne Sermon nació en Estados Unidos</li>
+      <li>Daniel James Platzman nació en Estados Unidos</li>
+      <li>Amy Jade Winehouse nació en Inglaterra</li>
+      <li>Flo Rida nació en Estados Unidos</li>
+      <li>Tramar Dillard nació en Estados Unidos</li>
+      <li>Calvin Harris nació en Escocia</li>
+      <li>Ellie Goulding nació en Reino Unido</li>
+      <li>Shakira Isabel Mebarak Ripoll nació en Colombia</li>
+      <li>Miley Ray Cyrus nació en Estados Unidos</li>
+      <li>Niall Horan nació en Irlanda</li>
+      <li>Liam James Payne nació en Reino Unido</li>
+      <li>Harry Edward Styles nació en Reino Unido</li>
+      <li>Louis Tomlinson nació en Reino Unido</li>
+      <li>Louis Troy Austin nació en Reino Unido</li>
+    </ul>
+    <h1>Tabla de artistas y sus respectivos éxitos</h1>
+    <table border="1px" align="center">
+      <tr bgcolor="#a4f4a1">
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Sexo</th>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Daniel Coulter Reynolds</td>
+        <td>30</td>
+        <td>Hombre</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Benjamin Arthur McKee</td>
+        <td>32</td>
+        <td>Hombre</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Daniel Wayne Sermon</td>
+        <td>33</td>
+        <td>Hombre</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Daniel James Platzman</td>
+        <td>31</td>
+        <td>Hombre</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Amy Jade Winehouse</td>
+        <td/>
+        <td>Mujer</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Flo Rida</td>
+        <td>38</td>
+        <td>Hombre</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Calvin Harris</td>
+        <td>34</td>
+        <td>Hombre</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Ellie Goulding</td>
+        <td>31</td>
+        <td>Mujer</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Shakira Isabel Mebarak Ripoll</td>
+        <td>41</td>
+        <td>Mujer</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Miley Ray Cyrus</td>
+        <td>25</td>
+        <td>Mujer</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Niall Horan</td>
+        <td>24</td>
+        <td>Hombre</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Liam James Payne</td>
+        <td>24</td>
+        <td>Hombre</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Harry Edward Styles</td>
+        <td>24</td>
+        <td>Hombre</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>Louis Tomlinson</td>
+        <td>26</td>
+        <td>Hombre</td>
+      </tr>
+      <tr bgcolor="#5be3ff">
+        <td>John Winston Ono Lennon</td>
+        <td/>
+        <td>Hombre</td>
+      </tr>
+    </table>
+    <br/>
+    <br/>
+    <table border="1px" align="center">
+      <tr>
+        <th>Últimos éxitos de todos los autores</th>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Gold</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>On Top of the World</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Rise Up</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Rise Up</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Monkey Man</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Whistle</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>My Way</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Army</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Dare</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Party in the U.S.A</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>YELLA</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Kiwi</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Sweet Creature</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Bridge Over Troubled Water</td>
+      </tr>
+      <tr bgcolor="#a4f4a1">
+        <td>Jealous guy</td>
+      </tr>
+    </table>
+    <h1>Datos diversos de todos los autores</h1>
+    <table border="1px" align="center">
+      <tr bgcolor="#8ea7ff">
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Lugar de Nacimiento</th>
+        <th>Estado civil</th>
+        <th>Nombre de su grupo</th>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Daniel Coulter Reynolds</td>
+        <td>30</td>
+        <td>Estados Unidos</td>
+        <td>Casado</td>
+        <td>Imagine Dragons</td>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Benjamin Arthur McKee</td>
+        <td>32</td>
+        <td>Estados Unidos</td>
+        <td>Soltero</td>
+        <td>Imagine Dragons</td>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Daniel Wayne Sermon</td>
+        <td>33</td>
+        <td>Estados Unidos</td>
+        <td>Casado</td>
+        <td>Imagine Dragons</td>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Daniel James Platzman</td>
+        <td>31</td>
+        <td>Estados Unidos</td>
+        <td>Divorciado</td>
+        <td>Imagine Dragons</td>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Amy Jade Winehouse</td>
+        <td/>
+        <td>Inglaterra</td>
+        <td/>
+        <td/>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Flo Rida</td>
+        <td>38</td>
+        <td>Estados Unidos</td>
+        <td>Soltero</td>
+        <td/>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Calvin Harris</td>
+        <td>34</td>
+        <td>Escocia</td>
+        <td>Soltero</td>
+        <td/>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Ellie Goulding</td>
+        <td>31</td>
+        <td>Reino Unido</td>
+        <td>Soltera</td>
+        <td/>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Shakira Isabel Mebarak Ripoll</td>
+        <td>41</td>
+        <td>Colombia</td>
+        <td>Casada</td>
+        <td/>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Miley Ray Cyrus</td>
+        <td>25</td>
+        <td>Estados Unidos</td>
+        <td>Noviazgo</td>
+        <td/>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Niall Horan</td>
+        <td>24</td>
+        <td>Irlanda</td>
+        <td>Soltero</td>
+        <td>One Direction</td>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Liam James Payne</td>
+        <td>24</td>
+        <td>Reino Unido</td>
+        <td>Casado</td>
+        <td>One Direction</td>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Harry Edward Styles</td>
+        <td>24</td>
+        <td>Reino Unido</td>
+        <td>Soltero</td>
+        <td>One Direction</td>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>Louis Tomlinson</td>
+        <td>26</td>
+        <td>Reino Unido</td>
+        <td>Casado</td>
+        <td>One Direction</td>
+      </tr>
+      <tr bgcolor="#3fff75">
+        <td>John Winston Ono Lennon</td>
+        <td/>
+        <td>Reino Unido</td>
+        <td/>
+        <td>The Beatles</td>
+      </tr>
+    </table>
+  </body>
+</html>

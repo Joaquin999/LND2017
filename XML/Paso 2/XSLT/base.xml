@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<artistas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/informatica/Desktop/XML/Paso%201/base.xsd">
+<artista id="3475">
+<datosPer>
+<nombre tipo="real">Daniel Coulter Reynolds</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Estados Unidos</lugarnac>
+<edad>30</edad>
+<fechanac>1987-07-14</fechanac>
+<estado>Casado</estado>
+<genero>Rock</genero>
+<grupo>Si</grupo>
+<nombregrupo>Imagine Dragons</nombregrupo>
+<especialidad>Vocalista</especialidad>
+<valoracion>8.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Monster</exito>
+<exito>Not Today</exito>
+<exito>Battle Cry</exito>
+<exito>Rise Up</exito>
+<exito>Gold</exito>
+</exitos>
+</artista>
+
+
+<artista id="5423">
+<datosPer>
+<nombre tipo="real">Benjamin Arthur McKee</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Estados Unidos</lugarnac>
+<edad>32</edad>
+<fechanac>1985-04-07</fechanac>
+<estado>Soltero</estado>
+<genero>Rock</genero>
+<grupo>Si</grupo>
+<nombregrupo>Imagine Dragons</nombregrupo>
+<especialidad>Guitarra</especialidad>
+<valoracion>7.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Thunder</exito>
+<exito>Shots</exito>
+<exito>Rise Up</exito>
+<exito>Believer</exito>
+<exito>On Top of the World</exito>
+</exitos>
+</artista>
+
+
+<artista id="8745">
+<datosPer>
+<nombre tipo="real">Daniel Wayne Sermon</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Estados Unidos</lugarnac>
+<edad>33</edad>
+<fechanac>1984-06-15</fechanac>
+<estado>Casado</estado>
+<genero>Rock</genero>
+<grupo>Si</grupo>
+<nombregrupo>Imagine Dragons</nombregrupo>
+<especialidad>Guitarra eléctrica, guitarra acústica, mandolina, piano...</especialidad>
+<valoracion>9.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Sucker for Pain</exito>
+<exito>Its Time</exito>
+<exito>Levitate</exito>
+<exito>Demons</exito>
+<exito>Rise Up</exito>
+</exitos>
+</artista>
+
+
+<artista id="3275">
+<datosPer>
+<nombre tipo="real">Daniel James Platzman</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Estados Unidos</lugarnac>
+<edad>31</edad>
+<fechanac>1986-09-28</fechanac>
+<estado>Divorciado</estado>
+<genero>Rock y Pop</genero>
+<grupo>Si</grupo>
+<nombregrupo>Imagine Dragons</nombregrupo>
+<especialidad>Batería, percusión, viola, violín, trompeta, bajo eléctrico</especialidad>
+<valoracion>10.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Roots</exito>
+<exito>Walking the Wire</exito>
+<exito>Rise Up</exito>
+</exitos>
+</artista>
+
+
+<artista id="4574">
+<datosPer>
+<nombre tipo="real">Amy Jade Winehouse</nombre>
+<sexo>Mujer</sexo>
+<lugarnac>Inglaterra</lugarnac>
+<fechanac>1983-09-14</fechanac>
+<fechafall>2011-07-23</fechafall>
+<genero>Jazz, RyB, soul y ska.</genero>
+<grupo>No</grupo>
+<especialidad>Voz, guitarra, piano, batería</especialidad>
+<valoracion>7.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Take the Box</exito>
+<exito>Valerie</exito>
+<exito>Rehab</exito>
+<exito>Monkey Man</exito>
+</exitos>
+</artista>
+
+
+<artista id="9327">
+<datosPer>
+<nombre tipo="artistico">Flo Rida</nombre>
+<nombre tipo="real">Tramar Dillard</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Estados Unidos</lugarnac>
+<edad>38</edad>
+<fechanac>1979-09-16</fechanac>
+<estado>Soltero</estado>
+<genero>Hip hop, música electrónica, house, techno...</genero>
+<grupo>No</grupo>
+<especialidad>Vocalista, DJ</especialidad>
+<valoracion>8.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Good Feeling</exito>
+<exito>GDFR</exito>
+<exito>Club Can't Handle Me</exito>
+<exito>Whistle</exito>
+</exitos>
+</artista>
+
+
+<artista id="1374">
+<datosPer>
+<nombre tipo="real">Calvin Harris</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Escocia</lugarnac>
+<edad>34</edad>
+<fechanac>1984-01-17</fechanac>
+<estado>Soltero</estado>
+<genero>House, Pop, Dance-Pop...</genero>
+<grupo>No</grupo>
+<especialidad>DJ</especialidad>
+<valoracion>7.00</valoracion>
+</datosPer>
+<exitos>
+<exito>I Need your Love</exito>
+<exito>Slide</exito>
+<exito>Rollin</exito>
+<exito>My Way</exito>
+</exitos>
+</artista>
+
+
+<artista id="3245">
+<datosPer>
+<nombre tipo="real">Ellie Goulding</nombre>
+<sexo>Mujer</sexo>
+<lugarnac>Reino Unido</lugarnac>
+<edad>31</edad>
+<fechanac>1986-12-30</fechanac>
+<estado>Soltera</estado>
+<genero>Pop, dance, indie, rock, folk y electropop</genero>
+<grupo>No</grupo>
+<especialidad>Vocalista, guitarra, mandolina, teclado, clarinete, percusión y batería</especialidad>
+<valoracion>9.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Burn</exito>
+<exito>First time</exito>
+<exito>Army</exito>
+</exitos>
+</artista>
+
+
+<artista id="4536">
+<datosPer>
+<nombre tipo="real">Shakira Isabel Mebarak Ripoll</nombre>
+<sexo>Mujer</sexo>
+<lugarnac>Colombia</lugarnac>
+<edad>41</edad>
+<fechanac>1977-02-02</fechanac>
+<estado>Casada</estado>
+<genero>Pop latino, pop rock, rock en español</genero>
+<grupo>No</grupo>
+<especialidad>Vocalista, guitarra, armónica</especialidad>
+<valoracion>8.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Chantaje</exito>
+<exito>La bicicleta</exito>
+<exito>Waka Waka</exito>
+<exito>Loca</exito>
+<exito>Dare</exito>
+</exitos>
+</artista>
+
+
+<artista id="2356">
+<datosPer>
+<nombre tipo="real">Miley Ray Cyrus</nombre>
+<sexo>Mujer</sexo>
+<lugarnac>Estados Unidos</lugarnac>
+<edad>25</edad>
+<fechanac>1992-11-23</fechanac>
+<estado>Noviazgo</estado>
+<genero>Pop, Pop rock, teen pop, dance</genero>
+<grupo>No</grupo>
+<especialidad>Vocalista, guitarra, piano</especialidad>
+<valoracion>8.50</valoracion>
+</datosPer>
+<exitos>
+<exito>Wrecking Ball</exito>
+<exito>Malibu</exito>
+<exito>We Can't Stop</exito>
+<exito>Party in the U.S.A</exito>
+</exitos>
+</artista>
+
+
+<artista id="2532">
+<datosPer>
+<nombre tipo="real">Niall Horan</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Irlanda</lugarnac>
+<edad>24</edad>
+<fechanac>1993-09-13</fechanac>
+<estado>Soltero</estado>
+<genero>Pop, Pop rock, dance pop</genero>
+<grupo>Si</grupo>
+<nombregrupo>One Direction</nombregrupo>
+<especialidad>Vocalista y guitarra</especialidad>
+<valoracion>6.50</valoracion>
+</datosPer>
+<exitos>
+<exito>One thing</exito>
+<exito>You and I</exito>
+<exito>Little Things</exito>
+<exito>Kiwi</exito>
+<exito>YELLA</exito>
+</exitos>
+</artista>
+
+
+<artista id="9909">
+<datosPer>
+<nombre tipo="real">Liam James Payne</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Reino Unido</lugarnac>
+<edad>24</edad>
+<fechanac>1993-08-29</fechanac>
+<estado>Casado</estado>
+<genero>Pop, Pop Rock, dance pop y teen pop</genero>
+<grupo>Si</grupo>
+<nombregrupo>One Direction</nombregrupo>
+<especialidad>Voz y guitarra</especialidad>
+<valoracion>7.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Best Song Ever</exito>
+<exito>Drag Me Down</exito>
+<exito>Kiwi</exito>
+</exitos>
+</artista>
+
+
+<artista id="4587">
+<datosPer>
+<nombre tipo="real">Harry Edward Styles</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Reino Unido</lugarnac>
+<edad>24</edad>
+<fechanac>1994-02-01</fechanac>
+<estado>Soltero</estado>
+<genero>Soft rock, rock, Pop y Britpop</genero>
+<grupo>Si</grupo>
+<nombregrupo>One Direction</nombregrupo>
+<especialidad>Vocalista</especialidad>
+<valoracion>6.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Don't Let Me Go</exito>
+<exito>Kiwi</exito>
+<exito>Sweet Creature</exito>
+</exitos>
+</artista>
+
+
+<artista id="6632">
+<datosPer>
+<nombre tipo="artistico">Louis Tomlinson</nombre>
+<nombre tipo="real">Louis Troy Austin</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Reino Unido</lugarnac>
+<edad>26</edad>
+<fechanac>1991-12-24</fechanac>
+<estado>Casado</estado>
+<genero>Pop, pop Rock, dance Pop</genero>
+<grupo>Si</grupo>
+<nombregrupo>One Direction</nombregrupo>
+<especialidad>Vocalista, piano, guitarra</especialidad>
+<valoracion>8.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Back to You</exito>
+<exito>Kiwi</exito>
+<exito>Miss You</exito>
+<exito>Lust Like You</exito>
+<exito>Bridge Over Troubled Water</exito>
+</exitos>
+</artista>
+
+
+<artista id="8666">
+<datosPer>
+<nombre tipo="real">John Winston Ono Lennon</nombre>
+<sexo>Hombre</sexo>
+<lugarnac>Reino Unido</lugarnac>
+<fechanac>1940-12-09</fechanac>
+<fechafall>1980-12-08</fechafall>
+<genero>Rock, Folk Rock, Skiffle, Hard Rock</genero>
+<grupo>Si</grupo>
+<nombregrupo>The Beatles</nombregrupo>
+<especialidad>Guitarra, vocalista, armónica, piano, bajo...</especialidad>
+<valoracion>10.00</valoracion>
+</datosPer>
+<exitos>
+<exito>Imagine</exito>
+<exito>Oh My Love</exito>
+<exito>Woman</exito>
+<exito>Imagine</exito>
+<exito>Starting Over</exito>
+<exito>Jealous guy</exito>
+</exitos>
+</artista>
+</artistas>
