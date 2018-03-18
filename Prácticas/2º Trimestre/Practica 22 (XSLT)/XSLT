@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+<jugador>
+<nombre>Julian</nombre>
+
+   <partida>1</partida>
+   <puntos>1650</puntos>
+
+</jugador>
+
+<jugador>
+<nombre>Wiggeta</nombre>
+   <partida>2</partida>
+   <puntos>1300</puntos>
+
+</jugador>
+
+<jugador>
+<nombre>Pedro</nombre>
+   <partida>1</partida>
+
+   <puntos>1650</puntos>
+
+</jugador>
+
+<jugador>
+<nombre>Fernando</nombre>
+   <partida>1</partida>
+
+   <puntos>1800</puntos>
+
+</jugador>
+</lista>

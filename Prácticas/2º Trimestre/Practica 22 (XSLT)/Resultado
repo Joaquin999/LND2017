@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html>
+  <body>
+    <h1>Torneo de Ajedrez</h1>
+    <table border="2">
+      <tr>
+        <th style="Text-align:center">Nombre</th>
+        <th style="Text-align:center">Puntos</th>
+      </tr>
+      <tr bgcolor="#3287cd">
+        <td>Julian</td>
+        <td>1650</td>
+      </tr>
+      <tr bgcolor="#f92525">
+        <td>Wiggeta</td>
+        <td>1300</td>
+      </tr>
+      <tr bgcolor="#3287cd">
+        <td>Pedro</td>
+        <td>1650</td>
+      </tr>
+      <tr bgcolor="#42c449">
+        <td>Fernando</td>
+        <td>1800</td>
+      </tr>
+    </table>
+  </body>
+</html>
