@@ -1,0 +1,65 @@
+<html>
+    <head></head>
+    <body>
+    
+    
+    
+    
+ 
+    
+    <script>
+        
+       var color=prompt("Estoy pensando en un color, a ver si adivinas cual es:blue, cyan, gold, gray, green, magenta, orange, red, yellow, white");
+        
+       
+         var colores = ["blue", "cyan", "gold", "gray", "green", "magenta","orange" , "red" , "yellow", "white"];
+         
+         var r=Math.round(Math.random(0.11)*10);
+         var colorPC=colores[r];
+       var intentos=0;
+         adivina(color);
+        
+     function adivina(color){
+          intentos=intentos+1;
+        var adivinado=false;
+        if(colores.indexOf(color)<colores.indexOf(colorPC) && colores.indexOf(color)!=-1){
+            
+            alert("Mi color es alfabeticamente mayor");
+            
+        }
+        if(colores.indexOf(color)>colores.indexOf(colorPC)){
+             alert("Mi color es alfabeticamente menor");
+             
+         }
+        if(colores.indexOf(color)==colores.indexOf(colorPC)){
+            document.body.style.background=colorPC;
+             alert("Has adivinado mi color"+"Has necesitado "+intentos+" para adivinarlo"+"                     Puedes ver el color en el fondo de la ventana");
+            var adivinado=true;
+          
+          
+             
+         }
+        if(colores.indexOf(color)==-1){
+           alert("Color no reconocido");
+           
+           }
+         if(adivinado==false){
+             color=prompt("blue, cyan, gold, gray, green, magenta, orange, red, yellow, white");
+             adivina(color);
+         }
+    
+     }   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </script>
+    
+  
+    </body>
+</html>
