@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            img{
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body onload="genera()">
+        <h1>Matching Game</h1>
+        <p>Click on the extra smiling</p>
+        <div id="leftSide" style="height: 500px;width: 500px;position: absolute"></div>
+        
+
+        <div id="rightSide" style="height: 500px;position: absolute; width: 500px;border-left: 1px solid black;left: 500px"></div>
+        
+        <script>
+             var numberOfFaces=5;
+            var theLeftSide = document.getElementById("leftSide");
+            var derexa=document.getElementById("rightSide");
+            
+            var randomleft;
+            var randomtop;
+        
+            
+  function genera(){
+        for(var i=1;i<=numberOfFaces-1;i++){
+                var img=document.createElement("img");
+          img.src="smile.png";
+            
+            randomleft=Math.floor(Math.random()*401);
+            randomtop=Math.floor(Math.random()*401);
+            
+            
+            img.style.left=randomleft + "px";
+            img.style.top=randomtop + "px";
+            
+            theLeftSide.appendChild(img);
+            }
+       
+       
+        var ladoIzquierdo=theLeftSide.cloneNode(true);
+            theLeftSide.lastChild.onclick=function Siguientenivel(event){
+                event.stopPropagation();
+                numberOfFaces+=5;
+                genera();
+            };
+            
+      ladoIzquierdo.removeChild(ladoIzquierdo.lastChild);
+      derexa.appendChild(ladoIzquierdo);
+            
+            var body=document.getElementsByTagName("body")[0];
+            
+        body.onclick=
+            function gameober(){
+            alert("Se acabo la partida!");
+            body.onclick=null;
+            theLeftSide.lastChild.onclick=null;
+            location.reload(true);
+        }
+  }
+
+        </script>
+    </body>
+</html>
