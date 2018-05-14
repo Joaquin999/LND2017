@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Envío y facturazión</title>
+    <style>
+        input {
+            border: 1px solid black;
+        }
+
+        input:focus {
+            background-color: #E6E6E6;
+        }
+
+        fieldset {
+            margin-bottom: 4%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Formularios JavaScript</h1>
+
+    <form>
+        <fieldset>
+            <legend>Información de envío</legend>
+            <label for="shippingName">Nombre:</label>
+            <input name="shipName" id="shippingName" required="" type="text"><br>
+            <label for="shippingZip">Código postal:</label>
+            <input name="shipZip" id="shippingZip" pattern="[0-9]{5}" required="" type="text"><br>
+        </fieldset>
+        <input id="same" name="same" onchange="billingFunction()" type="checkbox">
+        <label for="same">Misma dirección de facturación</label>
+
+        <fieldset>
+            <legend>Información de facturación</legend>
+            <label for="billingName">Nombre:</label>
+            <input name="billName" id="billingName" required="" type="text"><br>
+            <label for="billingZip">Código postal:</label>
+            <input name="billZip" id="billingZip" pattern="[0-9]{5}" required="" type="text"><br>
+        </fieldset>
+        <input value="Verificar" type="submit">
+    </form>
+    <script>
+        function billingFunction() {
+            var texto1 = document.getElementById("shippingName");
+            var texto2 = document.getElementById("billingName");
+            var checkbox = document.getElementById("same");
+            var codigo1 = document.getElementById("shippingZip");
+            var codigo2 = document.getElementById("billingZip");
+
+            if (checkbox.checked) {
+                texto2.value = texto1.value;
+                codigo2.value = codigo1.value;
+            } else {
+                texto2.value = " ";
+                codigo2.value = " ";
+            }
+
+
+
+
+        }
+
+    </script>
+</body>
+
+</html>
